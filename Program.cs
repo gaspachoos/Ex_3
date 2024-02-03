@@ -30,3 +30,7 @@ int[] ArrayReversal(int[] array)
     Console.Write($" {array[x]} ");
     return array;
 }
+
+
+Console.Write("Введите размер массива ");
+int n = int.Parse(Console.ReadLine()!)!;
