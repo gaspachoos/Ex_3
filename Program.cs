@@ -17,3 +17,16 @@ void ShowArray(int[] array)
     }
     Console.WriteLine();
 }
+
+int[] ArrayReversal(int[] array)
+{
+    int x = 0;
+    if (array.Length == 0)
+    {
+        Console.WriteLine("Развернутый массив ");
+        return array;
+    }
+    ArrayReversal(array[1..]);
+    Console.Write($" {array[x]} ");
+    return array;
+}
