@@ -8,3 +8,12 @@
     }
     return array;
 }
+void ShowArray(int[] array)
+{
+    Console.WriteLine("Изначальный массив ");
+    foreach (int e in array)
+    {
+        Console.Write($"{e} ");
+    }
+    Console.WriteLine();
+}
